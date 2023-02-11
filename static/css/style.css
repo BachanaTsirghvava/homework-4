@@ -1,0 +1,499 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* body */
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url(../fonts/Oswald-Light.ttf);
+    font-family: 'Lato', sans-serif;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* header */
+header{
+    border-bottom: 1px solid black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigation{
+    max-width: 1188px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.navigation li{
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'poppins';
+    font-style: normal;
+}
+
+.logo-li{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 37px;
+}
+
+.home-li{
+    padding-left: 270px;
+}
+
+.about-li{
+    padding: 0 66px;
+}
+
+.contact-li{
+    padding: 0 367px 0 66px;
+}
+
+/* main */
+main{
+    max-width: 1188px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* home page */
+.title{
+    text-align: center;
+    margin: 72px 0 65px 0;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.products{
+    display: inline-block;
+}
+
+.product-div{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 15px 15px 25px 15px;
+    width: 333px;
+}
+
+.product-div img{
+    width: 100%;
+}
+
+.product-div h3{
+    margin: 15px 0;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product-div p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .5px;
+}
+
+.product-div h3,
+.product-div p{
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.more-info button{
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 26px;
+    margin-bottom: 62px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.more-info button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.more-info{
+    text-align: right;
+    margin-top: 23px;
+}
+
+.products.second{
+    margin: 0 70px;
+}
+
+.information{
+    padding-left: 10px;;
+}
+
+.information-ul{
+    margin-left: 15px;
+}
+
+.information li{
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    list-style:disc;
+}
+
+.more-product{
+    text-align: right;
+    margin: 39px 67px 61px 0;
+    font-family: 'FiraGO';
+    font-style: normal;
+    text-decoration-line: underline;
+}
+
+/* about page */
+.about-title{
+    text-align: center;
+    margin-top: 112px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: #7D0000;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.about-div{
+    display: inline-block;
+    width: 650px;
+    height: 205px;
+}
+
+.about-text{
+    width: auto;
+    margin-top: 118px;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.adress-text{
+    text-align: right;
+    width: 373px;
+    margin: 59px 0 0 277px;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.about-section img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 500px;
+    height: 333.33px;
+   
+}
+
+/* blog page*/
+.blog-title{
+    margin-top: 47px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* blog navigation */
+.blog-nav{
+    text-align: center;
+    margin-top: 93px;
+}
+
+.blog-nav li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.beauty-li{
+    padding: 0 65px;
+}
+
+.travel-li{
+    padding-right: 65px;
+}
+
+/* blog section */
+.blog-section{
+    margin-top: 68px;
+}
+
+
+.blog img{
+    width: 308px;
+    height: 228px;
+    border-radius: 14px 0px 0px 14px;
+    display: inline-block;
+}
+
+.blog-div{
+    vertical-align: top;
+    width: 870px;
+    height: 228px;
+    display: inline-block;
+    background-color: #E5EBE5;
+}
+
+.blog-div p{
+    padding: 32px 32px 12px 36px;
+}
+
+.blog-div h3{
+    padding: 38px 0 0 36px;
+    display: block;
+}
+
+.full-blog button{
+    width: 174px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.full-blog button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.full-blog{
+    text-align: right;
+    margin-top: 14px;
+    margin-bottom: 63px;
+}
+
+/* contact page */
+.contact-us{
+    text-align: center;
+    margin-top: 85px;
+    font-family: 'Andada Pro';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #7D0000;
+    font-size: 40px;
+    line-height: 60px;
+    }
+
+.contact{
+    margin-top: 132px;
+    text-align: center;
+}
+
+.contact-info.mail{
+    text-align: left;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    margin-right: 315px;
+}
+
+.contact-info.mobile{
+    text-align: left;
+    margin-right: 353px;
+}
+
+.contact-info{
+    display: inline-block;
+    padding-bottom: 34px;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.contact iframe{
+    margin: 110px 0 193px 0;
+    width: 100%;
+    height: 423px;
+    border-radius: 16px;
+}
+
+/* profile page */
+.profile-section{
+    margin: 169px 0 0 80px;
+}
+
+.profile-section img{
+    display: inline-block;
+}
+
+.profile-div{
+    display: inline-block;
+}
+
+.profile-div h4,
+.profile-div p{
+    text-align: right;
+    margin-left: 68px;
+}
+
+.profile-div h4{
+    padding-bottom: 44px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.profile-div p{
+    padding-bottom: 15px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #546CCC;
+}
+
+.user-about{
+    margin-top: 96px;
+    width: 576px;
+    height: 260px;
+}
+
+.user-about h6{
+    display: inline-block;
+    padding: 0 15px 16px 15px;
+    border-bottom: 1px solid #7D0000;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.user_info-div p{
+    display: inline-block;
+}
+
+.user-email{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 163px;
+    padding-top: 58px;
+    text-align: left;
+}
+
+.user_info-div address{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 147px;
+}
+
+.gender{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 144px;
+    text-align: left;
+    padding: 30px 0;
+}
+
+.user-info.user-gender{
+    margin-right: 163px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.user-info{
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.edit-info button{
+    padding: 16px 32px;
+}
+
+.edit-info{
+    width: 265px;
+    height: 70px;
+    margin: 25px 0 0 797px;
+    background: #87AC87;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    border: 1px solid #87AC87;
+    border-radius: 10px;
+}
